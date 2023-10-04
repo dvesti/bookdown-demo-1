@@ -1,7 +1,8 @@
 --- 
-title: "A Minimal Book Example"
-author: "Yihui Xie"
+title: "Новый Книжка"
+author: "Мишка"
 date: "`r Sys.Date()`"
+lang: "ru"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
@@ -10,7 +11,47 @@ biblio-style: apalike
 link-citations: yes
 github-repo: rstudio/bookdown-demo
 description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+mainfont: Georgia #Scotch Modern #Times New Roman #Georgia
+monofont: "Courier New"
+monofontoptions: "Scale=0.7"
+fontsize: 12pt
+papersize: a4
+geometry:
+  - top=20mm #1in
+  - left=25mm #0.7in
+  - right=15mm #0.7in
+  - bottom=20mm #1in 
+#include-before:
+#\stepcounter{page} # инкримент номера страницы, поскольку титульный лист это страница 1
+  
+header-includes:
+# \usepackage[T2A]{fontenc}            % внутренняя кодировка  TeX
+# \usepackage[utf8x]{inputenc}         % кодовая страница документа
+# \usepackage[english]{babel} % локализация и переносы
+# \usepackage[russian,english]{babel}
+# \usepackage{fontspec}
+#- \setmainfont{Georgia}
+# \setsansfont{Sans Serif}
+#- \setmonofont{Courier New}
+#\usepackage[fontsize=14pt]{scrextend}
+- \usepackage{indentfirst}
+- \setlength\parindent{12.7mm}
+#- \pagestyle{plain} # номер страницы внизу по центру
 ---
+
+# Пролог {-#index}
+
+Русский алфавит состоит из 33 букв: «а», «б», «в», «г», «д», «е», «ё», «ж», «з», «и», «й», «к», «л», «м», «н», «о», «п», «р», «с», «т», «у», «ф», «х», «ц», «ч», «ш», «щ», «ъ», «ы», «ь», «э», «ю», «я». 
+
+> _Русский алфавит состоит из 33 букв: «а», «б», «в», «г», «д», «е», «ё», «ж», «з», «и», «й», «к», «л», «м», «н», «о», «п», «р», «с», «т», «у», «ф», «х», «ц», «ч», «ш», «щ», «ъ», «ы», «ь», «э», «ю», «я»._
+
+_**За день — 110 км. Ок — 2169 км**_  
+
+
+Здесь я напишу Введение или Пролог, или Аннотацию
+Потом добавлю отступ – Красной строки для ПДФ-файл (уже добавил)
+
+Lorem Ipsum - это текст-“рыба”, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной “рыбой” для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.  
 
 # Prerequisites
 
