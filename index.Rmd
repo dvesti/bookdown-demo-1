@@ -11,7 +11,7 @@ biblio-style: apalike
 link-citations: yes
 github-repo: https://github.com/dvesti/bookdown-demo-1
 description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
-mainfont: Georgia #Scotch Modern #Times New Roman #Georgia
+#mainfont: Georgia #Scotch Modern #Times New Roman #Georgia
 monofont: "Courier New"
 monofontoptions: "Scale=0.7"
 fontsize: 12pt
@@ -37,6 +37,7 @@ header-includes:
 - \usepackage{indentfirst}
 - \setlength\parindent{12.7mm}
 #- \pagestyle{plain} # номер страницы внизу по центру
+- \setmainfont{Times New Roman} 
 ---
 
 # Пролог {-#index}

@@ -2,10 +2,36 @@ bookdown::gitbook:
   css: style.css
   config:
     toc:
+      collapse: subsection
+      scroll_highlight: true
       before: |
-        <li><a href="https://dvesti.github.io/bookdown-demo-1/">Новый Книжка</a></li>
+        <li><a href="https://dvesti.github.io/bookdown-demo-dvesti">Малая книга на Bookdown</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+    toolbar:
+      position: fixed
+    search:
+      engine: lunr # or fuse
+      # options to control/tune search engine behavior (for
+      # fuse.js, refer to https://fusejs.io/api/options.html)
+      options: null
+    fontsettings:
+      theme: white
+      family: sans
+      size: 2
+    sharing:
+      facebook: true
+      github: false
+      twitter: true
+      linkedin: false
+      weibo: false
+      instapaper: false
+      vk: false
+      whatsapp: false
+      all: ['facebook', 'twitter', 'linkedin', 'weibo', 'instapaper']
+    info: true
+
     edit: https://github.com/dvesti/bookdown-demo-1/tree/main/%s
     download: ["pdf", "epub"]
 bookdown::pdf_book:

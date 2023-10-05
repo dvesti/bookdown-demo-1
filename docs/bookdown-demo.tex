@@ -20,7 +20,6 @@
 \usepackage{lmodern}
 \ifPDFTeX\else
   % xetex/luatex font selection
-  \setmainfont[]{Georgia}
   \setmonofont[Scale=0.7]{Courier New}
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
@@ -114,10 +113,6 @@
 \usepackage[bidi=default]{babel}
 \fi
 \babelprovide[main,import]{russian}
-\ifPDFTeX
-\else
-\babelfont{rm}[]{Georgia}
-\fi
 % get rid of language-specific shorthands (see #6817):
 \let\LanguageShortHands\languageshorthands
 \def\languageshorthands#1{}
@@ -131,6 +126,7 @@
 \makeatother
 \usepackage{indentfirst}
 \setlength\parindent{12.7mm}
+\setmainfont{Times New Roman}
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
