@@ -20,7 +20,6 @@
 \usepackage{lmodern}
 \ifPDFTeX\else
   % xetex/luatex font selection
-  \setmonofont[Scale=0.7]{Courier New}
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -124,10 +123,10 @@
   \thm@postskip=\thm@preskip
 }
 \makeatother
-\usepackage{fontspec}
+\setmonofont{Roboto}
 \usepackage{indentfirst}
 \setlength\parindent{12.7mm}
-\setmainfont{Merriweather}
+\setmainfont{Lora Regular}
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
@@ -157,6 +156,7 @@
 \chapter*{Пролог}\label{index}
 \addcontentsline{toc}{chapter}{Пролог}
 
+Lora Cyrillic
 Русский алфавит состоит из 33 букв: «а», «б», «в», «г», «д», «е», «ё», «ж», «з», «и», «й», «к», «л», «м», «н», «о», «п», «р», «с», «т», «у», «ф», «х», «ц», «ч», «ш», «щ», «ъ», «ы», «ь», «э», «ю», «я».
 
 \begin{quote}

@@ -29,15 +29,24 @@ header-includes:
 # \usepackage[utf8x]{inputenc}         % кодовая страница документа
 # \usepackage[english]{babel} % локализация и переносы
 # \usepackage[russian,english]{babel}
-# \usepackage{fontspec}
+- \usepackage{fontspec}
 #- \setmainfont{Georgia}
 # \setsansfont{Sans Serif}
 #- \setmonofont{Courier New}
+#- \setmonofont{Roboto}
 #\usepackage[fontsize=14pt]{scrextend}
 - \usepackage{indentfirst}
 - \setlength\parindent{12.7mm}
 #- \pagestyle{plain} # номер страницы внизу по центру
-- \setmainfont{Times New Roman} 
+- \setmainfont{Merriweather}  
+#- \setmainfont{Lora Regular} 
+#- \setmainfont{Georgia} 
+#- \setmainfont{Lora Italic} 
+#- \setmainfont{Lora-Bold} 
+#- \setmainfont{Lora-SemiBoldItalic.ttf} 
+#- \setmainfont[UprightFeatures={SmallCapsFont=AlegreyaSC-Regular}]{Alegreya}  
+#- \setmainfont[UprightFeatures={SmallCapsFont=AlegreyaSC-Regular}]{Alegreya} 
+#- \setmainfont{Lora Cyrillc}[ UprightFont = * Regular, ItalicFont = *-Italic, BoldFont = *-Bold, BoldItalicFont = *-BoldItalic, Ligatures={TeX,NoRequired}, ]
 ---
 
 # Пролог {-#index}
