@@ -1,12 +1,10 @@
-fig:nice-fig
-tab:nice-tab
-prerequisites
 intro
 literature
 methods
-math-example
+математический-пример-math-example
 applications
 example-one
 example-two
 final-words
-математический-пример-math-example
+math-example
+section
