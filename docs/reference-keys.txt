@@ -9,3 +9,4 @@ applications
 example-one
 example-two
 final-words
+математический-пример-math-example
